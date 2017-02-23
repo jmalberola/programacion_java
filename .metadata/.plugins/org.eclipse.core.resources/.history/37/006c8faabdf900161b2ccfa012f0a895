@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		/*
+		 * Pedir números hasta que se introduzca un número negativo y mostrar la
+		 * suma total
+		 */
+
+		/*
+		 * VERSIÓN 1 Scanner sc = new Scanner(System.in); int suma=0,num=0;
+		 * 
+		 * while(num>=0){ System.out.println("Introduce un número"); num =
+		 * sc.nextInt(); suma = suma + num; }
+		 */
+
+		// VERSIÓN 2
+		/*
+		 * Scanner sc = new Scanner(System.in); int suma=0,num=0;
+		 * 
+		 * do { System.out.println("Introduce un número"); num = sc.nextInt();
+		 * suma = suma + num; } while (num>=0);
+		 * 
+		 * suma=suma-num; System.out.println("La suma total es "+suma);
+		 */
+
+		// VERSIÓN 3
+		/*
+		 * Scanner sc = new Scanner(System.in); int suma=0,num=0;
+		 * 
+		 * do { System.out.println("Introduce un número"); num = sc.nextInt();
+		 * if(num>=0) suma = suma + num; } while (num>=0);
+		 * 
+		 * System.out.println("La suma total es "+suma);
+		 */
+
+		// VERSIÓN 4
+		/*
+		 * Scanner sc = new Scanner(System.in); int suma=0,num=0;
+		 * 
+		 * do { suma = suma + num; System.out.println("Introduce un número");
+		 * num = sc.nextInt(); } while (num>=0);
+		 * 
+		 * System.out.println("La suma total es "+suma);
+		 */
+
+		Scanner sc = new Scanner(System.in);
+		int suma = 0;
+
+		for (int i = 0; i < 0; i++) {
+			System.out.println("Introduce un número");
+			i = sc.nextInt();
+			if (i >= 0)
+				suma = suma + i;
+		}
+
+	}
+
+}
