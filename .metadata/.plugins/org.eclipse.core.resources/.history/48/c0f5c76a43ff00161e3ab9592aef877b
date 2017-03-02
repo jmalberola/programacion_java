@@ -1,0 +1,15 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Empleado e1 = new Empleado();
+				
+		e1.guardar_edad(25);
+		
+		e1.imprimir_edad();
+		
+
+	}
+
+}

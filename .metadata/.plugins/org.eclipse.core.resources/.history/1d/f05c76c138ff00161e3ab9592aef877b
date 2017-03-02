@@ -1,0 +1,9 @@
+
+public class Empleado {
+	
+	String nombre;
+	String dni;
+	int edad;
+	float sueldo;
+
+}

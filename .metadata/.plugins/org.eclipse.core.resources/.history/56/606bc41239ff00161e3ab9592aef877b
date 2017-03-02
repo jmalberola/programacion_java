@@ -1,0 +1,15 @@
+
+public class Empleado {
+	
+	String nombre;
+	String dni;
+	int edad;
+	float sueldo;
+	
+	public void imprimir_edad(){
+	
+		System.out.println("La edad es "+edad);
+		
+	}
+
+}
