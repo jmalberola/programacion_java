@@ -1,10 +1,10 @@
 
 public class Direccion {
 	
-	String calle;
-	int numero;
-	int CP;
-	String poblacion;
+	private String calle;
+	private int numero;
+	private int CP;
+	private String poblacion;
 	
 	public String getCalle() {
 		return calle;

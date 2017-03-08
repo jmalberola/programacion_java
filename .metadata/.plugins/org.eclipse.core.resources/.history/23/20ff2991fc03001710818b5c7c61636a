@@ -1,0 +1,11 @@
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		//PREGUNTE NÚMEROS del 0 al 9
+		//MUESTRE CUANTOS 0's, 1's, 2's... 9's ha introducido el usuario
+		//TERMINE CUANDO INTRODUZCA UN NÚMERO QUE NO SEA DEL 0-9
+		
+	}
+
+}

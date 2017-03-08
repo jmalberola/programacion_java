@@ -4,8 +4,25 @@ public class Empleado {
 	private String nombre;
 	private String dni;
 	private int edad;
-	private float sueldo;
 	private Direccion direccion;
+	private PuestoTrabajo puesto_trabajo;
+	
+	public Empleado(){
+		
+	}
+	
+	public Empleado(String n){
+		nombre=n;
+	}
+	
+
+	public PuestoTrabajo getPuesto_trabajo() {
+		return puesto_trabajo;
+	}
+
+	public void setPuesto_trabajo(PuestoTrabajo puesto_trabajo) {
+		this.puesto_trabajo = puesto_trabajo;
+	}
 
 	public Direccion getDireccion() {
 		return direccion;
@@ -30,15 +47,7 @@ public class Empleado {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-
-	public float getSueldo() {
-		return sueldo;
-	}
-
-	public void setSueldo(float sueldo) {
-		this.sueldo = sueldo;
-	}
-
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -48,7 +57,7 @@ public class Empleado {
 	}
 	
 	public void incrementar_sueldo(float a){
-		sueldo=sueldo+a;
+		puesto_trabajo.setSueldo(puesto_trabajo.getSueldo()+a);
 	}
 
 }
